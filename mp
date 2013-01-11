@@ -43,13 +43,13 @@ def main(service):
 		output = open(salts_path, 'wb')
 		salts = {}
 		salts = pickle.dump(salts, output)
-		print "This script just created the file /tmp/.mpsalts. Don't delete it unless you want to change all your passwords."
+		print "This script just created the file %s. Don't delete it unless you want to change all your passwords." % salts_path
 	else:
 		output = open(salts_path, 'r+b')
 		salts = pickle.load(output)
 	
 	if listing:
-		if len(salts):			
+		if salts:
 			print "Services:"
 			for salt in salts:
 				print "  " + salt
