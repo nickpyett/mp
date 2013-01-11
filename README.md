@@ -4,8 +4,8 @@ A unix command line tool to generate random passwords from a master password. Wr
 
 ## About
 
-__License__ MIT/GPL 
-__Copyright__ Nick Pyett (contact@nickpyett.com) 
+__License__ MIT/GPL  
+__Copyright__ Nick Pyett (contact@nickpyett.com)
 
 ## Installation
 
@@ -33,27 +33,27 @@ mp [-a | -d] [-l] [service]
 
 ### List services
 
-\# mp 
+\# mp
 
 or 
 
-\# mp -l 
+\# mp -l
 
 ### Add service
 
-\# mp -a twitter 
-\# Master password: 
-\# Password for service "twitter" copied to clipboard. 
+\# mp -a twitter  
+\# Master password:  
+\# Password for service "twitter" copied to clipboard.  
 
 ### Get password
 
-\# mp twitter 
-\# Master password: 
-\# Password for service "twitter" copied to clipboard. 
+\# mp twitter  
+\# Master password:  
+\# Password for service "twitter" copied to clipboard.  
 
 ### Delete password
 
-\# mp -d twitter 
-\# Are you sure you wish to delete the service "twitter"? 
-\# y 
-\# Service "twitter" deleted. 
+\# mp -d twitter  
+\# Are you sure you wish to delete the service "twitter"?  
+\# y  
+\# Service "twitter" deleted.  
