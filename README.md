@@ -4,8 +4,8 @@ A unix command line tool to generate random passwords from a master password. Wr
 
 ## About
 
-__License__ MIT/GPL
-__Copyright__ Nick Pyett (contact@nickpyett.com)
+__License__ MIT/GPL 
+__Copyright__ Nick Pyett (contact@nickpyett.com) 
 
 ## Installation
 
@@ -16,6 +16,8 @@ You will need to add mp to either a directory that is in your PATH, or add a new
 Add the following to the file at ~/.bash_profile.
 
 PATH="/users/you/cli:${PATH}"
+
+The tool adds the file /tmp/.mpsalts to store the salts for each password. You can change this around line 37 by opening the file with a text editor.
 
 ### Linux
 
@@ -31,25 +33,27 @@ mp [-a | -d] [-l] [service]
 
 ### List services
 
-\# mp
-or
-\# mp -l
+\# mp 
+
+or 
+
+\# mp -l 
 
 ### Add service
 
-\# mp -a twitter
-\# Master password:
-\# Password for service "twitter" copied to clipboard.
+\# mp -a twitter 
+\# Master password: 
+\# Password for service "twitter" copied to clipboard. 
 
 ### Get password
 
-\# mp twitter
-\# Master password:
-\# Password for service "twitter" copied to clipboard.
+\# mp twitter 
+\# Master password: 
+\# Password for service "twitter" copied to clipboard. 
 
 ### Delete password
 
-\# mp -d twitter
-\# Are you sure you wish to delete the service "twitter"?
-\# y
-\# Service "twitter" deleted.
+\# mp -d twitter 
+\# Are you sure you wish to delete the service "twitter"? 
+\# y 
+\# Service "twitter" deleted. 
