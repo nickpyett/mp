@@ -5,14 +5,14 @@ A unix command line tool to generate random passwords from a master password. Wr
 ## About
 
 __License__ MIT/GPL  
-__Copyright__ Nick Pyett (contact@nickpyett.com)
+__Copyright__ Nick Pyett (contact@nickpyett.com)  
 
 ## Requirements
 
 Requirements are the xerox and bcrypt Python libraries, both available via pip.
 
-\# pip install py-bcrypt
-\# pip install xerox
+\# pip install py-bcrypt  
+\# pip install xerox  
 
 You may need to add sudo before those commands.
 
