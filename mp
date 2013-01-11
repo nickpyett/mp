@@ -55,7 +55,7 @@ def main(service):
 				print "  " + salt
 			exit()
 		else:
-			print "No services to delete. Run \"mp -a service\" to add one."
+			print "No services to list. Run \"mp -a service\" to add one."
 			exit()
 	elif adding:
 		# Check to see if we already have a salt for the service, as if
