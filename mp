@@ -18,7 +18,7 @@ from xerox import copy
 
 # Add our arguments, a boolean to add or delete a service,
 # a boolean for listing and the service itself
-parser = argparse.ArgumentParser(description='Create and read passwords from a master password. Passwords are pasted to your clipboard. This script uses a file stored in your /tmp directory.')
+parser = argparse.ArgumentParser(description='Create and read passwords from a master password. Passwords are pasted to your clipboard. This script uses a file stored in your home directory.')
 group = parser.add_mutually_exclusive_group()
 group.add_argument('-a', '--add', action='store_true', help='add or update a service')
 group.add_argument('-d', '--delete', action='store_true', help='delete a service')
