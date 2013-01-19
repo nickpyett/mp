@@ -26,7 +26,7 @@ Add the following to the file at ~/.bash_profile.
 
 PATH="/users/you/cli:${PATH}"
 
-The tool adds the file /tmp/.mpsalts to store the salts for each password. You can change this around line 37 by opening the file with a text editor.
+The tool adds the file .mpsalts to your home directory to store the salts for each password. You can change this around line 37 by opening the file with a text editor.
 
 ### Linux
 
