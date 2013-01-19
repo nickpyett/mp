@@ -34,7 +34,7 @@ if not adding and not deleting and not listing and not service:
 	listing = True
 
 # Change your salts file path here
-salts_path = '/tmp/.mpsalts'
+salts_path = os.getenv('HOME') + '/.mpsalts'
 
 def main(service):
 	
